@@ -899,7 +899,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#E9F284"
+        "foreground": "#EFAC7C"
       }
     },
     {
@@ -1279,6 +1279,30 @@
       "settings": {
         "foreground": "#FFB86C",   // naranja pastel (Dracula-style)
         "fontStyle": "bold italic"
+      }
+    },
+    {
+      "scope": "meta.attribute.python",
+      "settings": {
+        "foreground": "#4DBADC",
+      }
+    },
+    {
+      "scope": ["variable.parameter.function.language.python","meta.function-call.arguments.python"],
+      "settings": {
+        "foreground": "#c27cd8",
+      }
+    },
+    {
+      "scope": "variable.parameter.function.language.php",
+      "settings": {
+        "foreground": "#c27cd8",
+      }
+    },
+    {
+      "scope": "meta.function-call.python",
+      "settings": {
+        "foreground": "#EBDB8D",
       }
     },
   ]
