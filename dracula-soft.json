@@ -1305,5 +1305,11 @@
         "foreground": "#EBDB8D",
       }
     },
+    {
+      "scope": "source.python",
+      "settings": {
+        "foreground": "#90c8ce",
+      }
+    },
   ]
 }
