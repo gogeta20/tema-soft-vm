@@ -1314,13 +1314,19 @@
     {
       "scope": "source.sql",
       "settings": {
-        "foreground": "#81c2c9",
+        "foreground": "#86d6df",
       }
     },
     {
-      "scope": ["storage.type.sql","keyword.other.sql","storage.modifier.sql"],
+      "scope": ["storage.type.sql","keyword.other.sql","storage.modifier.sql","keyword.other.create.sql","keyword.other.DML.sql"],
       "settings": {
-        "foreground": "#ecf4f5",
+        "foreground": "#ffffff",
+      }
+    },
+    {
+      "scope": ["variable.other.object.property.ts"],
+      "settings": {
+        "foreground": "#add3ad",
       }
     },
   ]
