@@ -1311,5 +1311,17 @@
         "foreground": "#90c8ce",
       }
     },
+    {
+      "scope": "source.sql",
+      "settings": {
+        "foreground": "#81c2c9",
+      }
+    },
+    {
+      "scope": ["storage.type.sql","keyword.other.sql","storage.modifier.sql"],
+      "settings": {
+        "foreground": "#ecf4f5",
+      }
+    },
   ]
 }
